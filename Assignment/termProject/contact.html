@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta content="Real Estate Agent WebPage, Final Project, Web Design" name="keywords">
+    <meta content="An example of Real Estate Agent Webpage " name="description">
+    <!--Create by: Leonardo dos Santos Nunes Student Number: 301263098 Create on: December 07, 2022 -->
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <img src="images/JohnDoelogo.png" alt="John Doe Logo">        
+    </header>
+    <nav>
+        <ul>
+            <li id="submenu"><a href="index.html">Home</a></li>
+            <li><a href="activeListing.html">Active listings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contact</h2>        
+        <div class="flex-container">
+            <div class="form-contact">
+                <h3>COMPLETE THE FORM, AND I WILL BE IN TOUCH!</h3>
+                <form action="http://studentweb.cencol.ca/pgignac/results.php" method="post">
+                    <fieldset class="form">                
+                        <p class="customerService"><input type="text" name="txtFirstName" id="txtFirstName" tabindex="1" required="required" placeholder="First Name" size="45"></p>
+                        <p class="customerService"><input type="text" name="txtLastName" id="txtLastName" tabindex="3" required="required" placeholder="Last Name" size="45"></p>
+                        <p class="customerService"><input type="email" id="email" name="email" placeholder="Email@email.com" size="45"></p>
+                        <p class="customerService"><input type="text" name="txtphone" id="txtphone" tabindex="7" required="required" placeholder="Phone" size="45"></p>
+                    </fieldset>
+                    <fieldset class="form">
+                        <p class="customerService" id="textAdress"><input type="text" name="txtAdress" id="txtAdress" tabindex="9" placeholder="City, Neighbourhood or MLS&#174;  number"></p>
+                        <p class="customerService"><select name="rentOrSale" id="rentOrSale" tabindex="11">
+                                <option value="ForSale">For sale</option>
+                                <option value="ForRent">For rent</option>
+                            </select>
+                            <input type="number" id="minPrice" name="minPrice" min="0" max="20000000" step="100000" placeholder="Min Price" tabindex="13" style="width:105px ;">
+                            <input type="number" id="maxPrice" name="maxPrice" min="0" max="20000000" step="100000" placeholder="Max Price" tabindex="15" style="width:105px;" ></p>
+                            <p class="customerService">
+                                <select name="BuildindType" id="BuildindType" tabindex="16">
+                                <option value=" ">Building Type</option>
+                                <option value="1">Studio</option>
+                                <option value="2">House</option>
+                                <option value="3">Row / Townhouse</option>
+                                <option value="4">Apartment</option>
+                                <option value="5">Duplex</option>
+                                <option value="6">Triplex</option>
+                                <option value="7">Fourplex</option>
+                            </select>
+                            <select name="numberBedroom" id="numberBedroom" tabindex="17">
+                                <option value="0-0">Beds</option>
+                                <option value="0-0">Any</option>
+                                <option value="1-1">1</option>
+                                <option value="1-0">1+</option>
+                                <option value="2-2">2</option>
+                                <option value="2-0">2+</option>
+                                <option value="3-3">3</option>
+                                <option value="3-0">3+</option>
+                                <option value="4-4">4</option>
+                                <option value="4-0">4+</option>
+                                <option value="5-5">5</option>
+                                <option value="5-0">5+</option>
+                            </select>
+                            <select name="numberBedroom" id="numberBathroom" tabindex="19">
+                                <option value="0-0">Baths</option>
+                                <option value="0-0">Any</option>
+                                <option value="1-1">1</option>
+                                <option value="1-0">1+</option>
+                                <option value="2-2">2</option>
+                                <option value="2-0">2+</option>
+                                <option value="3-3">3</option>
+                                <option value="3-0">3+</option>
+                                <option value="4-4">4</option>
+                                <option value="4-0">4+</option>
+                                <option value="5-5">5</option>
+                                <option value="5-0">5+</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <fieldset class="form">
+                        <p class="customerService"><textarea name="txtOther" id="txtOther" cols="45" rows="6" placeholder="Message" tabindex="22"></textarea></p>
+                    </fieldset>
+                        <p class="customerService" style="text-indent: 0px;"><input type="submit" name="btnSubmit" id="btnSubmit" value="Send Form" tabindex="23"></p>
+                </form>
+            </div>
+            <aside class="asideMain aside-contact">
+                <table>
+                    <tr>
+                        <td>
+                             <img src="images/pexels-andrea-piacquadio-3778876-circle.png" alt="John Doe Picture">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dr John Doe</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Broker</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Professional Real Estate Agent</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="tel:123-456-7890"><img src="images/iconphone.png" alt="iconphone"> Call 123-456-7890</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="sms:123-456-7890"><img src="images/iconmsg.png" alt="iconmsg"> Text 123-456-7890</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="mailto:john.doe@realstate.com"><img src="images/iconemail.png" alt="iconmail"> Email Me</a>
+                        </td>
+                    </tr>
+                </table>
+            </aside>
+        </div>
+        <div class="asideMini">
+            <table>
+                <tr>
+                    <td>
+                         <img src="images/pexels-andrea-piacquadio-3778876-circle.png" alt="John Doe Picture">
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Dr John Doe</strong></td>
+                </tr>
+                <tr>
+                    <td>Broker</td>
+                </tr>
+                <tr>
+                    <td><strong>Professional Real Estate Agent</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="tel:123-456-7890"><img src="images/iconphone.png" alt="iconphone"> Call 123-456-7890</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="sms:123-456-7890"><img src="images/iconmsg.png" alt="iconmsg"> Text 123-456-7890</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="mailto:john.doe@realstate.com"><img src="images/iconemail.png" alt="iconmail"> Email Me</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h6>&copy; &nbsp;&nbsp; Copyright Leonardo dos Santos Nunes -Student Number: 301263098 -  Centennial College - Comp 213 - Fall 2022 - <a href="../index.html">home page</a></h6>
+    </footer>
+    
+</body>
+</html>

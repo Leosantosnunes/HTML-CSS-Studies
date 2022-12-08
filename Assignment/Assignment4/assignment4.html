@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continuing Education Centennial College Form</title>
+    <link rel="stylesheet" media="screen" href="Assignment4styles.css" type="text/css">
+    <link rel="stylesheet" href="Assignment4stylesprint.css">
+    <meta content="HTML Forms, Assignment 4, Web Design" name="keywords">
+    <meta content="An example of using HTML forms" name="description">
+    <!--Create by: Leonardo dos Santos Nunes Student Number: 301263098 Create on: November 12, 2022 -->
+</head>
+<body>
+    <header>
+        <a href="https://www.centennialcollege.ca/" target="_blank"><img src="images/logo.jpg" alt="logo" ></a>       
+    </header>
+    <main>
+        <h3>CENTENNIAL COLLEGE</h3>
+        <h4>Continuing Education Course/Instructor Evaluation</h4>
+        <p>Please read each statement carefully and consider each one individually.</p>
+        <form action="http://studentweb.cencol.ca/pgignac/results.php" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label for="txtCourseName">Course Name/Code:</label>
+                    <input type="text" id="txtCourseName" name="txtCourseName" size="45" tabindex="1" required="required">
+                </p>
+                <p>
+                    <label for="optSemester">Semester: </label>
+                    <input type="radio" id="optSemester" name="optSemester" value="Fall" tabindex="3" required="required" class="form"> Fall &nbsp;&nbsp;
+                    <input type="radio" name="optSemester" value="Winter" tabindex="5" required="required" class="form"> Winter &nbsp;&nbsp;
+                    <input type="radio" name="optSemester" value="Spring/Summer" tabindex="7" required="required" class="form"> Spring/Summer &nbsp;&nbsp; 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="dateYear">Year: </label>
+                    <input type="number" id="dateYear" name="dateYear" min="1966" max="2022" tabindex="9" required="required">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Instructor</legend>
+                <p>How would you rate the instructor's:</p>
+                <ol>
+                    <li><label for="optKnowSub"><span>Knowlodge</span> of subject? </label><br>
+                    <input type="radio" id="optKnowSub" name="optKnowSub" value="Excellent" tabindex="11" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optKnowSub" value="Good" tabindex="11" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optKnowSub" value="Fair" tabindex="11" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optKnowSub" value="Not Satisfactory" tabindex="11" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optHelpfulness"><span>Helpfulness</span>? </label><br>
+                    <input type="radio" id="optHelpfulness" name="optHelpfulness" value="Excellent" tabindex="13" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optHelpfulness" value="Good" tabindex="15" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optHelpfulness" value="Fair" tabindex="17" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optHelpfulness" value="Not Satisfactory" tabindex="19" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optCourtesyResp"><span>Courtesy and respect</span> for all students? </label><br>
+                    <input type="radio" id="optCourtesyResp" name="optCourtesyResp" value="Excellent" tabindex="19" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optCourtesyResp" value="Good" tabindex="21" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optCourtesyResp" value="Fair" tabindex="23" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optCourtesyResp" value="Not Satisfactory" tabindex="25" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optCommSkills"><span>Communication</span> Skills </label><br>
+                    <input type="radio" id="optCommSkills" name="optCommSkills" value="Excellent" tabindex="25" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optCommSkills" value="Good" tabindex="27" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optCommSkills" value="Fair" tabindex="29" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optCommSkills" value="Not Satisfactory" tabindex="31" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optOverPerf">Overall <span>Perfomance</span>? </label><br>
+                    <input type="radio" id="optOverPerf" name="optOverPerf" value="Excellent" tabindex="31" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optOverPerf" value="Good" tabindex="33" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optOverPerf" value="Fair" tabindex="35" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optOverPerf" value="Not Satisfactory" tabindex="37" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>Course</legend>
+                <ol start="6">
+                    <li><label for="optCourseMat">How would you rate the <span>course materials</span>? </label><br>
+                    <input type="radio" id="optCourseMat" name="optCourseMat" value="Excellent" tabindex="39" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optCourseMat" value="Good" tabindex="41" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optCourseMat" value="Fair" tabindex="43" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optCourseMat" value="Not Satisfactory" tabindex="45" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optExpectations"> How much did this course meet your <span>expectations</span>? </label><br>
+                    <input type="radio" id="optExpectations" name="optExpectations" value="Excellent" tabindex="47" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optExpectations" value="Good" tabindex="49" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optExpectations" value="Fair" tabindex="51" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optExpectations" value="Not Satisfactory" tabindex="53" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optOverall">How would you rate this course(<span>overall</span>)? </label><br>
+                    <input type="radio" id="optOverall" name="optOverall" value="Excellent" tabindex="53" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optOverall" value="Good" tabindex="55" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optOverall" value="Fair" tabindex="57" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optOverall" value="Not Satisfactory" tabindex="59" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>General Information</legend>
+                <ol start="9">
+                    <li><label for="optCourseOutline">Was the <span>course outline</span> reviewed/explained at the beginning of your course? </label><br>
+                    <input type="radio" id="optCourseOutline" name="optCourseOutline" value="Excellent" tabindex="61" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optCourseOutline" value="Good" tabindex="63" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optCourseOutline" value="Fair" tabindex="65" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optCourseOutline" value="Not Satisfactory" tabindex="67" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                    <li><label for="optRecommend">Would you <span>recommend</span> this course to a friend with the same interests? </label><br>
+                    <input type="radio" id="optRecommend" name="optRecommend" value="Excellent" tabindex="69" required="required"> Excellent &nbsp;&nbsp;
+                    <input type="radio" name="optRecommend" value="Good" tabindex="71" required="required"> Good &nbsp;&nbsp;
+                    <input type="radio" name="optRecommend" value="Fair" tabindex="73" required="required"> Fair &nbsp;&nbsp;
+                    <input type="radio" name="optRecommend" value="Not Satisfactory" tabindex="75" required="required"> Not Satisfactory &nbsp;&nbsp;</li>
+                </ol>
+            </fieldset>
+            <fieldset>                
+                <legend>Any Other Comments</legend>
+                <ol start="11">
+                    <li>
+                        <label for="txtBestThing"> What is the best thing about this course?</label><br>
+                        <textarea name="txtBestThing" id="txtBestThing" tabindex="77" cols="100" rows="6" placeholder="Comments..."></textarea>
+                    </li>
+                    <li>
+                        <label for="txtImprove">How could we <span>improve</span> this course?</label><br>
+                        <textarea name="txtImprove" id="txtImprove" tabindex="79" cols="100" rows="6" placeholder="Comments..."></textarea>
+                    </li>
+                    <li><label for="txtOther">Other:</label><br>
+                    <textarea name="txtOther" id="txtOther" tabindex="81" cols="100" rows="6" placeholder="Comments..."></textarea></li>
+                </ol>
+                <h5 class="footer2">Thank you! We pay attention to your feedback!</h5>
+                <p class="footer2">Web: <a href="http://centennialcollege.ca/continuing_education">www.centennialcollege.ca/continuing_education</a> &nbsp;&nbsp;&nbsp;&nbsp;Email: <a href=mailto:continuingeucation@centennialcollege.ca>continuingeducation@centennialcollege.ca</a></p>
+
+            </fieldset>
+            <p>
+                <input type="submit" name="btnSubmit" id="btnSubmit" value="Complete Registration" tabindex="83">
+                <input type="reset" name="btnReset" id="btnReset" value="Clear Form" tabindex="85">
+            </p>
+                      
+        </form>
+    </main>
+    <footer>
+        <h6>&copy; &nbsp;&nbsp; Copyright Leonardo dos Santos Nunes -Student Number: 301263098 -  Centennial College - Comp 213 - Fall 2022 - <a href="../index.html">home page</a></h6>        
+    </footer>
+</body>
+</html>

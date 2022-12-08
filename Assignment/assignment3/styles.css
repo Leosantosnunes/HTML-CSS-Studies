@@ -1,0 +1,68 @@
+body {
+    background-image: url(images/mosaicbg.jpg)
+}
+
+#allPages {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    
+}
+
+table {
+    width: 100%;
+}
+
+header tr {
+    text-align: left;
+}
+
+table,td,tr {
+    text-align: center;
+    vertical-align: center;
+}
+
+#frameset {
+    width: 400px;
+    height: auto;
+}
+
+#homepage {
+    text-align: right;
+}
+
+#viewpicture {
+    text-align: left;
+    padding-left: 150px;
+}
+.upg {
+    font-size: 1.5em;
+}
+
+#price {
+    font-size: 2em;    
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#logow {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;    
+}
+
+#feature tr:nth-child(even) {
+    background-color: rgb(190, 230, 255);
+}
+
+#upgOptions {
+    border: 1px solid;      
+}
+#banner {
+    width: 980px;
+    height: auto;
+}

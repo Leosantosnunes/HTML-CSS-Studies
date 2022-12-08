@@ -1,0 +1,76 @@
+body {
+    background-image:linear-gradient(to right,#002707,#10621E);
+}
+header img{
+    width: 980px;
+    height: 100%;
+}
+
+h3 {
+    background-color: #53A461;
+    font-size: 24px;
+}
+
+h4 {
+    background-color: #2B823A;
+    font-size: 20px;
+}
+
+#paragraph{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 500px;
+    text-align: justify;
+}
+
+#p2{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+main {
+    background-color: #cdffd5;    
+}
+
+#allPage {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#backhome {
+    position: relative  ;
+    top: -10px;
+    left: 800px;    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main ul {
+    list-style-image: url('images/leaf2.gif');
+    list-style-position: outside;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+main img {
+    width:350px;
+    height: 300px;
+    float: right;
+    margin-right: 20px;        
+}
+
+footer p {
+    color: white; 
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+footer a {
+    color: white;
+}
